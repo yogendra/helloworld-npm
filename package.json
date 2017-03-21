@@ -1,6 +1,6 @@
 {
   "name": "yogendra-helloworld",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hello World NPM Module",
   "main": "index.js",
   "repository": "git@github.com:yogendra/helloworld-npm.git",
