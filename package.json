@@ -1,0 +1,20 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World NPM Module",
+  "main": "index.js",
+  "repository": "git@github.com:yogendra/helloworld-npm.git",
+  "author": "Yogendra Rampuria <yogendrarampuria@gmail.com>",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-eslint": "^3.0.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter spec"
+  }
+}
