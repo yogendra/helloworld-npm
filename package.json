@@ -14,7 +14,10 @@
     "mocha-eslint": "^3.0.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter spec"
+    "test-only": "./node_modules/.bin/mocha --reporter spec",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter spec",
+    "preversion": "npm test",
+    "version": "git add -A && git commit",
+    "postversion": "git push && git push --tags"
   }
 }
