@@ -3,3 +3,4 @@ coverage/
 test/
 .editorconfig
 .eslintrc.json
+yarn.lock
