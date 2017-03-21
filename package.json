@@ -17,7 +17,7 @@
     "test-only": "./node_modules/.bin/mocha --reporter spec",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter spec",
     "preversion": "npm test",
-    "version": "git add -A && git commit",
+    "version": "git add -A && git commit -m 'Version:%s'",
     "postversion": "git push && git push --tags"
   }
 }
